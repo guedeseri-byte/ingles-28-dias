@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inglês 28 Dias</title>
+<meta name="description" content="Curso de inglês em 28 dias: lições, exercícios, áudio e revisão espaçada.">
+<meta name="theme-color" content="#1f3a8a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Inglês 28">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <button class="back" id="backBtn" aria-label="Voltar" hidden>‹</button>
+  <h1 id="topTitle">Inglês 28 Dias</h1>
+  <span class="streak" id="streak" title="Dias seguidos estudando"></span>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<nav class="tabs" id="tabs">
+  <a href="#/hoje" data-tab="hoje"><span class="ico">☀️</span>Hoje</a>
+  <a href="#/curso" data-tab="curso"><span class="ico">📚</span>Curso</a>
+  <a href="#/revisar" data-tab="revisar"><span class="ico">🔁</span>Revisar</a>
+  <a href="#/mais" data-tab="mais"><span class="ico">⚙️</span>Mais</a>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/content-w1.js"></script>
+<script src="js/content-w2.js"></script>
+<script src="js/content-w3.js"></script>
+<script src="js/content-w4.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
